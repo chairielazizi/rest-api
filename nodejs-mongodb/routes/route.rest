@@ -2,4 +2,25 @@ GET http://localhost:3000/users
 
 ###
 
-GET http://localhost:3000/users/4
+GET http://localhost:3000/users/679c0baa9301128095343c05
+
+###
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "email": "john.doe@example.com"
+}
+
+###
+PATCH  http://localhost:3000/users/679c11035f6a07b6a0de0183
+Content-Type: application/json
+
+{
+    "name": "John Wicked"
+}
+
+###
+
+DELETE  http://localhost:3000/users/679c0baa9301128095343c05
