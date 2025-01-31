@@ -1,4 +1,4 @@
-CREATE TABLE products_rest_api (
+CREATE TABLE products (
     id INT NOT NULL PRIMARY KEY IDENTITY,
     name NVARCHAR(100) NOT NULL,
     brand NVARCHAR(100) NOT NULL,

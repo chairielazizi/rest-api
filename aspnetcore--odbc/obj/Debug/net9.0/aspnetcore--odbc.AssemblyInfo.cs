@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("aspnetcore--odbc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f0c137ae698ef2dca8a96b0e170ee3b233abaf9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0dcf0736edebc45ceb65980aee8adf52fee6ed9")]
 [assembly: System.Reflection.AssemblyProductAttribute("aspnetcore--odbc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("aspnetcore--odbc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
