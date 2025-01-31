@@ -1,0 +1,6 @@
+@aspnetcore__odbc_HostAddress = http://localhost:5222
+
+GET {{aspnetcore__odbc_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
