@@ -1,0 +1,28 @@
+GET http://localhost:8080/
+
+###
+
+GET http://localhost:8080/api/employees/0194bd23-88f6-7318-b83d-fdbd008050d2
+
+###
+POST http://localhost:8080/api/employees
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "23423432",
+    "salary": 3253.10
+}
+
+###
+PATCH  http://localhost:3000/users/679c11035f6a07b6a0de0183
+Content-Type: application/json
+
+{
+    "name": "John Wicked"
+}
+
+###
+
+DELETE  http://localhost:3000/users/679c0baa9301128095343c05

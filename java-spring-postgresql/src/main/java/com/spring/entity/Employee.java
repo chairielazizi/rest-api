@@ -18,7 +18,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "Employees")
+@Table(name = "Employees_java_spring")
 public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
