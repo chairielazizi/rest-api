@@ -1,18 +1,18 @@
-GET http://localhost:8080/
+GET http://localhost:8080/api/employees
 
 ###
 
-GET http://localhost:8080/api/employees/0194bd23-88f6-7318-b83d-fdbd008050d2
+GET http://localhost:8080/api/employees/8f6994b6-caee-4957-946d-f812018af602
 
 ###
 POST http://localhost:8080/api/employees
 Content-Type: application/json
 
 {
-    "name": "John Doe",
-    "email": "john.doe@example.com",
-    "phone": "23423432",
-    "salary": 3253.10
+    "name": "Jane Doe",
+    "email": "jane.doe@example.com",
+    "phone": "5342532",
+    "salary": 1553.10
 }
 
 ###

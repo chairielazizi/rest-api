@@ -1,5 +1,6 @@
 package com.spring.controller;
 
+import java.util.List;
 import java.util.UUID;
 
 import org.springframework.http.HttpStatus;
@@ -28,5 +29,19 @@ public class EmployeeController {
         EmployeeDto savedEmployee = employeeService.createEmployee(employeeDto);
         return new ResponseEntity<EmployeeDto>(savedEmployee, HttpStatus.CREATED);
         // return ResponseEntity.ok(employeeService.createEmployee(employeeDto));
+    }
+
+    //get employee by id
+    @GetMapping("/{Id}")
+    public ResponseEntity<EmployeeDto> getEmployeeById(@PathVariable("Id") UUID employeeId) {
+        EmployeeDto employeeDto = employeeService.getEmployeeById(employeeId);
+        return new ResponseEntity<EmployeeDto>(employeeDto, HttpStatus.OK);
+    }
+
+    //get all employees
+    @GetMapping
+    public ResponseEntity<List<EmployeeDto>> getAllEmployees() {
+        List<EmployeeDto> employeeDtos = employeeService.getAllEmployees();
+        return new ResponseEntity<List<EmployeeDto>>(employeeDtos, HttpStatus.OK);
     }
 }
