@@ -533,3 +533,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+#python gitignore
+/python-django/env/
