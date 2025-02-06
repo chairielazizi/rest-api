@@ -2,7 +2,7 @@ GET http://localhost:8000/api/users
 
 ###
 
-GET http://localhost:3000/users/679c0baa9301128095343c05
+GET http://localhost:8000/api/users/3/  
 
 ###
 POST http://localhost:8000/api/users/create/
@@ -15,7 +15,27 @@ Content-Type: application/json
 }
 
 ###
-PATCH  http://localhost:3000/users/679c11035f6a07b6a0de0183
+POST http://localhost:8000/api/users/create/
+Content-Type: application/json
+
+{
+    "name": "Tali kegunaan",
+    "email": "tali.doe@gmail.com",
+    "password": "assword098"
+}
+
+###
+PUT   http://localhost:8000/api/users/3/
+Content-Type: application/json
+
+{
+    "name": "Jin Wicked",
+    "email": "jin.wicked@example.com",
+    "password": "pfdsa3f3"
+}
+
+###
+PATCH  http://localhost:8000/api/users/3/
 Content-Type: application/json
 
 {
@@ -24,4 +44,4 @@ Content-Type: application/json
 
 ###
 
-DELETE  http://localhost:3000/users/679c0baa9301128095343c05
+DELETE  http://localhost:8000/api/users/4/
